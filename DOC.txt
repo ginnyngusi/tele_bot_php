@@ -1,0 +1,12 @@
+Install
+ - Push tạo db, config lại file config.php
+ - Token bot telegram:
+	 1. Vào telegram, tìm @BotFather (có tích xanh)
+	 2. Nhập /newbot
+	 3. Nhập tên bot, username bot.
+	 4. Lấy token (xxx:yyy) bỏ vào file webhook.php
+ - Instal callback api:
+	1. vào chrome, nhập https://api.telegram.org/bot<xxx:yyy>/setWebhook?url=<Phần url gọi>
+URL gọi chính là /webhook.php
+
+_TRANSLATE chính là phần sửa nội dung
