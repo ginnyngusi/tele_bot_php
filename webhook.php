@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/autoload/functions.php';
 require_once $_SERVER["DOCUMENT_ROOT"] . '/config.php'; // Phần database
 require_once $_SERVER["DOCUMENT_ROOT"] . '/vi_VN.php';
 
-$bot = new \ObxStudios\ChatFramework($tokenBot); // Update token trong file config. Từ giờ về sau sao lưu file config, không cần quan tâm mỗi khi update bot
+$bot = new \ObxStudios\ChatFramework($tokenBot); // Update token on file config. 
 $userId = $bot->getUserId();
 
 // Get data user
