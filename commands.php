@@ -64,7 +64,7 @@ switch ($command) {
         }
         break;
     case '/calendar': 
-        $bot->sendTextMessage($userID, $date);
+        $bot->sendTextMessage($userID, _CALENDAR);
         break;
     default:
         $bot->sendTextMessage($userId, _UNKNOWN_COMMAND);
