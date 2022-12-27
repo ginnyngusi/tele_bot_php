@@ -1,5 +1,6 @@
 <?php
 $command = strtolower($bot->getMessage());
+
 switch ($command) {
     case '/start':
         if (!$userData['inProcessing']) {
@@ -61,6 +62,9 @@ switch ($command) {
         }else{
             $bot->sendTextMessage($userId, "[DEVELOP MODE]\nType: Private\nUser ID: $userId\nFILE DATA: $key_update");
         }
+        break;
+    case '/calendar': 
+        $bot->sendTextMessage($userID, $date);
         break;
     default:
         $bot->sendTextMessage($userId, _UNKNOWN_COMMAND);
