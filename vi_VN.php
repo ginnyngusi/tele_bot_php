@@ -31,3 +31,5 @@ define('_UNKNOWN_COMMAND', 'Lệnh không hợp lệ!');
 define('_ERROR_DATABASE_CONNECT', 'Lỗi kết nối cơ sở dữ liệu!');
 
 define('_SOMETHING_WENT_WRONG', 'Xảy ra một trường hợp ngoại lệ tại {0}. Tự động reset dữ liệu!');
+
+define('_CALENDAR', 'https://docs.google.com/spreadsheets/d/1zK1k_JS2w9TqjXuFoJrB6OFBTIs521tvuTtKeoOIoCE/edit#gid=0');
